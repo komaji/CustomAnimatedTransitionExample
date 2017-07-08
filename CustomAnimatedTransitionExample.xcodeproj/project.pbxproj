@@ -15,6 +15,7 @@
 		2BFB281B1F1122420085899E /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB281A1F1122420085899E /* DestinationViewController.swift */; };
 		2BFB281D1F1122540085899E /* DestinationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB281C1F1122540085899E /* DestinationViewController.storyboard */; };
 		2BFB281F1F1125FA0085899E /* CustomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB281E1F1125FA0085899E /* CustomAnimatedTransitioning.swift */; };
+		2BFB28211F113CFB0085899E /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB28201F113CFB0085899E /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2BFB281A1F1122420085899E /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		2BFB281C1F1122540085899E /* DestinationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DestinationViewController.storyboard; sourceTree = "<group>"; };
 		2BFB281E1F1125FA0085899E /* CustomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		2BFB28201F113CFB0085899E /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				2BFB281C1F1122540085899E /* DestinationViewController.storyboard */,
 				2BFB281A1F1122420085899E /* DestinationViewController.swift */,
 				2BFB281E1F1125FA0085899E /* CustomAnimatedTransitioning.swift */,
+				2BFB28201F113CFB0085899E /* NavigationController.swift */,
 			);
 			path = CustomAnimatedTransitionExample;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				2BFB28051F1120C80085899E /* AppDelegate.swift in Sources */,
 				2BFB281F1F1125FA0085899E /* CustomAnimatedTransitioning.swift in Sources */,
+				2BFB28211F113CFB0085899E /* NavigationController.swift in Sources */,
 				2BFB28191F1121510085899E /* SourceViewController.swift in Sources */,
 				2BFB281B1F1122420085899E /* DestinationViewController.swift in Sources */,
 			);
