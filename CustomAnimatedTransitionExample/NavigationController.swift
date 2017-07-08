@@ -29,7 +29,11 @@ class NavigationController: UINavigationController {
 extension NavigationController: UINavigationControllerDelegate {
     
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return CustomAnimatedTransitioning(operation: operation)
+        if toVC is DestinationViewController || fromVC is DestinationViewController {
+            return CustomAnimatedTransitioning(operation: operation)
+        } else {
+            return nil
+        }
     }
     
 }
