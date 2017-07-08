@@ -22,18 +22,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9X-HQ-6q2">
-                                <rect key="frame" x="160.5" y="313" width="54" height="41"/>
+                                <rect key="frame" x="115.5" y="263" width="144" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Push"/>
+                                <state key="normal" title="Custom Push"/>
                                 <connections>
-                                    <action selector="pushButtonDidTap:" destination="eIU-Uq-qiV" eventType="touchUpInside" id="afP-vL-fhv"/>
+                                    <action selector="customPushButtonDidTap:" destination="eIU-Uq-qiV" eventType="touchUpInside" id="fQq-Eq-HUF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6a-oL-5dG">
+                                <rect key="frame" x="119.5" y="363" width="136" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Default Push"/>
+                                <connections>
+                                    <action selector="defaultPushButtonDidTap:" destination="eIU-Uq-qiV" eventType="touchUpInside" id="D6d-CB-sz9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="D6a-oL-5dG" firstAttribute="centerY" secondItem="S1o-J9-vAo" secondAttribute="centerY" constant="50" id="Kit-eR-iVr"/>
+                            <constraint firstItem="D6a-oL-5dG" firstAttribute="centerX" secondItem="S1o-J9-vAo" secondAttribute="centerX" id="Wh5-PT-b7Q"/>
                             <constraint firstItem="h9X-HQ-6q2" firstAttribute="centerX" secondItem="S1o-J9-vAo" secondAttribute="centerX" id="vvT-fk-ZBh"/>
-                            <constraint firstItem="h9X-HQ-6q2" firstAttribute="centerY" secondItem="S1o-J9-vAo" secondAttribute="centerY" id="y0f-BL-djk"/>
+                            <constraint firstItem="h9X-HQ-6q2" firstAttribute="centerY" secondItem="S1o-J9-vAo" secondAttribute="centerY" constant="-50" id="y0f-BL-djk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Source" id="8M7-Wd-36S"/>
