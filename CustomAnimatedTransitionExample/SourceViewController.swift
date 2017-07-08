@@ -10,4 +10,9 @@ import UIKit
 
 class SourceViewController: UIViewController {
     
+    @IBAction func pushButtonDidTap(_ button: UIButton) {
+        let destinationViewController = UIStoryboard(name: String(describing: DestinationViewController.self), bundle: nil).instantiateInitialViewController()!
+        navigationController?.pushViewController(destinationViewController, animated: true)
+    }
+    
 }
