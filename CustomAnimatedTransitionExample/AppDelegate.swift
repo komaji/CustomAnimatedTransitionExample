@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         let sourceViewController = UIStoryboard(name: String(describing: SourceViewController.self), bundle: nil).instantiateInitialViewController()!
-        let navigationController = UINavigationController(rootViewController: sourceViewController)
+        let navigationController = NavigationController(rootViewController: sourceViewController)
         
         window?.rootViewController = navigationController
         
